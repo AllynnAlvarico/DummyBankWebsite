@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+.mainDashboard {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+.boardLeft {
+  display: flex;
+  flex-direction: column;
+  margin: 1%;
+	z-index: -1;
+}
+.cardHolder {
+  border: inset 5px gray;
+  border-radius: 40px;
+  background-color: white;
+  height: 15em;
+  width: 350px;
+  margin-bottom: 5%;
+}
+.cardHolder h1{
+	padding: 5% 0% 0% 10%;
+}
+.loanHolder {
+  border: inset 5px gray;
+  border-radius: 40px;
+  background-color: white;
+  height: 10em;
+  width: 350px;
+  margin-bottom: 5%;
+}
+.loanHolder h1{
+	padding: 5% 0% 0% 10%;
+}
+.ibanHolder {
+  border: inset 5px gray;
+  border-radius: 30px;
+  background-color: white;
+  height: 10em;
+  width: 350px;
+}
+.ibanHolder h1{
+	padding: 5% 0% 0% 10%;
+}

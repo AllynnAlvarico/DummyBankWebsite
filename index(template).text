@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Dummy Bank Holdings</title>
+</head>
+
+<body>
+	<header>
+	<img src="img/DBHoldings Logo.png" alt="DB Holdings Logo">
+	<h1>Dummy Bank Holdings &trade;</h1>
+	</header>
+	<nav>
+	<div>Home</div>
+	<div>Accounts</div>
+	<div>Messages</div>
+	<div>Settings</div>
+	<div>Support</div>
+	</nav>
+	<aside><!--Left Corner dashboard-->
+	<div>Card</div>
+	<div>Loans</div>
+	<div>IBAN Number</div>
+	</aside>
+	<main><!--Center Section of the WebApp dashboard-->
+	<h1>Transactions</h1>
+	</main>
+		<section>
+		<article><!--Top Right Corner dashboard-->
+		<h1>Analytics</h1>
+		</article>
+		<article><!--Bottom Right Corner dashboard-->
+		<h1>Suggested for you</h1>
+		</article>
+	</section>
+	<footer>
+	
+	</footer>
+</body>
+</html>

@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+.transactionBox{
+	margin-top: 1%;
+	border: inset 5px gray;
+	border-radius: 30px;
+	height: 610px;
+	width: 1000px
+}
+.transactionBox h1{
+	padding: 1% 0% 0% 5%;
+}

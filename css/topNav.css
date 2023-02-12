@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+.navBoard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+	box-shadow: 5px 3px 150px 10px #A190F7;
+	overflow: hidden;
+	z-index: 1;
+	background-color: #A190F7;
+}
+.navBoardLeft {
+  display: flex;
+  justify-content: flex-start;
+}
+.navBoardLeft a {
+  padding: 5% 20%;
+  text-decoration: none;
+  color: white;
+}
+.navBoardLeft a:hover {
+  background-color: white;
+  color: black;
+}
+.navBoardLeft a:active {
+  color: blue;
+}
+.navBoardRight {
+	padding-top: .5%;
+	padding-right: 50px;;
+}
+.navBoardRight h5 {
+  margin: .5% 20%;
+	
+  text-decoration: none;
+  color: white;
+}
