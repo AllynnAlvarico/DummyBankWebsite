@@ -18,9 +18,17 @@
   height: 15em;
   width: 350px;
   margin-bottom: 5%;
+	overflow: hidden;
 }
 .cardHolder h1{
 	padding: 5% 0% 0% 10%;
+	border-bottom: double 3px black;
+}
+.cardHolder img{
+	margin: 3% 10%;
+	align-self: center;
+	width: 80%;
+	height: 70%;
 }
 .loanHolder {
   border: inset 5px gray;
@@ -32,6 +40,7 @@
 }
 .loanHolder h1{
 	padding: 5% 0% 0% 10%;
+	border-bottom: double 3px black;
 }
 .ibanHolder {
   border: inset 5px gray;
@@ -42,4 +51,5 @@
 }
 .ibanHolder h1{
 	padding: 5% 0% 0% 10%;
+	border-bottom: double 3px black;
 }

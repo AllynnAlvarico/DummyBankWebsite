@@ -4,9 +4,10 @@
 	margin-top: 1%;
 	border: inset 5px gray;
 	border-radius: 30px;
-	height: 610px;
-	width: 1000px
+	height: 615px;
+	width: 60%;
 }
 .transactionBox h1{
 	padding: 1% 0% 0% 5%;
+	border-bottom: double 3px black;
 }
