@@ -5,8 +5,7 @@
 	margin: 0px;
 }
 html {
-	background-color: white;
-}
-body {
-	
+	/*background-color: white;*/
+	background-image: linear-gradient(330deg, #73de90, #A190F7);
+	overflow: hidden;
 }

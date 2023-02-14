@@ -4,41 +4,46 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-	box-shadow: 5px 3px 150px 10px #A190F7;
-	overflow: hidden;
-	z-index: 1;
-	background-color: #A190F7;
+  overflow: hidden;
+  z-index: 1;
+  /*background-color: #A190F7;*/
 }
 .navBoardLeft {
   display: flex;
   justify-content: flex-start;
 }
 .navBoardLeft a {
-  padding: 5% 20%;
+  padding: 10% 20%;
   text-decoration: none;
   color: white;
+	text-shadow: 1px 0px 10px white;
+	opacity: .85;
 }
 .navBoardLeft a:hover {
   background-color: white;
   color: black;
+	opacity: .7;
+	text-shadow: 1px 0px 10px black;
 }
 .navBoardLeft a:active {
   color: blue;
 }
 .navBoardRight {
-display: flex;
+  display: flex;
   flex-flow: row wrap;
   align-items: center;
 }
 .navBoardRight label {
-  margin:5px 10px 5px 0px;
+  margin: 5px 10px 5px 0px;
   color: white;
 }
 .navBoardRight input {
-	  vertical-align: middle;
+  vertical-align: middle;
   margin: 5px 10px 5px 0;
   padding: 1px;
   background-color: #fff;
   border: 1px solid #ddd;
 }
-.navBoardRight button
+.navBoardRight button {
+  margin: 0px 10px 0px 0px;
+}

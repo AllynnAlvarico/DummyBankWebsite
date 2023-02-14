@@ -1,10 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
-.mainDashboard {
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-start;
-}
+
 .boardLeft {
   display: flex;
   flex-direction: column;
@@ -19,9 +15,10 @@
   width: 350px;
   margin-bottom: 5%;
 	overflow: hidden;
+	opacity: 0.8;
 }
 .cardHolder h1{
-	padding: 5% 0% 0% 10%;
+	padding: 3.35% 0% 0% 10%;
 	border-bottom: double 3px black;
 }
 .cardHolder img{
@@ -29,6 +26,7 @@
 	align-self: center;
 	width: 80%;
 	height: 70%;
+	
 }
 .loanHolder {
   border: inset 5px gray;
@@ -37,6 +35,7 @@
   height: 10em;
   width: 350px;
   margin-bottom: 5%;
+	opacity: 0.8;
 }
 .loanHolder h1{
 	padding: 5% 0% 0% 10%;
@@ -48,6 +47,7 @@
   background-color: white;
   height: 10em;
   width: 350px;
+	opacity: 0.8;
 }
 .ibanHolder h1{
 	padding: 5% 0% 0% 10%;

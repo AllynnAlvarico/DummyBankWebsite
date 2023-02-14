@@ -9,12 +9,12 @@
 }
 .header h1{
 	align-self: center;
-	padding: 1% 0px 0px 1em;
+	padding: 0px 0px 0px 1em;
 	text-shadow: 10px 10px 8px black;
 }
 .header img{
-	width: 08%;
-	height: 08%;
+	width: 10%;
+	height: 10%;
 	padding: .5% 0% 0.5% 1%;
 }
 

@@ -1,11 +1,19 @@
 @charset "utf-8";
 /* CSS Document */
+.mainDashboard {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin-top: 2%;
+}
 .transactionBox{
 	margin-top: 1%;
 	border: inset 5px gray;
 	border-radius: 30px;
+	background-color: white;
 	height: 615px;
 	width: 60%;
+	opacity: 0.8;
 }
 .transactionBox h1{
 	padding: 1% 0% 0% 5%;
