@@ -6,7 +6,6 @@
   justify-content: space-between;
   overflow: hidden;
   z-index: 1;
-  /*background-color: #A190F7;*/
 }
 .navBoardLeft {
   display: flex;
@@ -16,14 +15,12 @@
   padding: 10% 20%;
   text-decoration: none;
   color: white;
-	text-shadow: 1px 0px 10px white;
-	opacity: .85;
+	text-shadow: 1px 0px 10px black;
 }
 .navBoardLeft a:hover {
   background-color: white;
   color: black;
-	opacity: .7;
-	text-shadow: 1px 0px 10px black;
+	text-shadow: 1px 0px 10px gray;
 }
 .navBoardLeft a:active {
   color: blue;
