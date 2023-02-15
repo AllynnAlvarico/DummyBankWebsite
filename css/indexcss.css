@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+.mainBody, .LeftBoard, .RightBoard {
+	display: flex;
+	text-shadow: 2px 2px 10px black;
+	color: white;
+}
+.mainBody{
+	padding: 2%;
+}
+.LeftBoard {
+	flex-direction: column;
+	justify-content: flex-start;
+	margin: 3% 4% 0px 5%;
+}
+.LeftBoard h1 {
+	padding: 1px 0px 30px 0px;
+	font-size: 40px
+}
+.LeftBoard p {
+	padding: 0px 50px 3% 50px;
+}
+.RightBoard{
+	margin: 3%;
+	flex-direction: column;
+}
+.RightBoard h1 {
+	font-size: 60px;
+	padding: 1% 0px 3% 0px;
+	animation: myAnim 10s ease 0s infinite alternate forwards;
+}
+.RightBoard form {
+	flex-direction: column;
+	
+}
+@keyframes myAnim {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+	25%,
+	75% {
+		opacity: 0.7;
+	}
+}

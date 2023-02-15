@@ -2,85 +2,51 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Dummy Bank Holdings</title>
     <link type="text/css" rel="stylesheet" href="css/mainstyle.css">
     <link type="text/css" rel="stylesheet" href="css/header.css">
     <link type="text/css" rel="stylesheet" href="css/topNav.css">
-    <link type="text/css" rel="stylesheet" href="css/dashLeft.css">
     <link type="text/css" rel="stylesheet" href="css/dashMain.css">
-    <link type="text/css" rel="stylesheet" href="css/dashRight.css">
     <link type="text/css" rel="stylesheet" href="css/footer.css">
-	 	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
-	  <script src="js/analystChart.js" defer></script>
-	  <script src="js/loginInfo.js" defer></script>
+    <link type="text/css" rel="stylesheet" href="css/indexcss.css">
+    <script src="js/loginInfo.js" defer></script>
   </head>
-
   <body>
     <header class="header"><img src="img/DBHoldings Logo.png" alt="DB Holdings Logo">
       <h1>Dummy Bank Holdings &trade;</h1>
     </header>
     <nav class="navBoard">
-      <div class="navBoardLeft">
-		  <a href="#">Home</a>
-		  <a href="#">Transfer</a>
-		  <a href="#">Messages</a>
-		  <a href="#">Settings</a>
-		  <a href="#">Support</a>
-		</div>
-      <form class="navBoardRight">
-		  <label for="email">Email or Username: </label>
-		  <input id="userInfo" type="text" placeholder="Login Account">
-		  
-		  <label for="pwd"> Password: </label>
-		  <input id="userInPwd" type="password" placeholder="Password">
-		  
-		  <label><input type="checkbox" name="remember"> Remember me </label>
-		  
-		  <button type="submit" onclick="return submit_login()">Enter</button>
-		  
-		  <button type="submit">Forgot Password</button>
-		</form>
+      <div class="navBoardLeft"><a href="#">Home</a><a href="#">Transfer</a><a href="#">Messages</a><a href="#">Settings</a><a href="#">Support</a></div>
+      <form class="navBoardRight"><label for="email">Email or Username: </label><input id="userInfo" type="text" placeholder="Login Account"><label for="pwd"> Password: </label><input id="userInPwd" type="password" placeholder="Password"><label><input type="checkbox" name="remember"> Remember me </label><button type="submit" onclick="return submit_login()">Enter</button><button type="submit">Forgot Password</button></form>
     </nav>
-    <main class="mainDashboard">
-      <!--Left Corner dashboard-->
-      <aside class="boardLeft">
-        <div class="cardHolder">
-          <h1>Card</h1>
-          <img src="img/DummyBankCard.png" alt="bankCard">
-        </div>
-        <div class="loanHolder">
-          <h1>Loans</h1>
-        </div>
-        <div class="ibanHolder">
-          <h1>IBAN Number</h1>
-        </div>
+    <main class="mainBody">
+      <aside class="LeftBoard">
+        <h1>Dummy Bank Holding</h1>
+        <p>Number Building or Apartment,</p>
+        <p>Name of the Streets,</p>
+        <p>Name of the Town or City,</p>
+        <p>Name of the County or State</p>
+        <p>Postal Code or Eircode</p>
       </aside>
-      <section class="transactionBox">
-        <!--Center Section of the WebApp dashboard-->
-        <h1>Transactions</h1>
-		  
-      </section>
-      <aside class="dashRight">
-        <!--Top Right Corner dashboard-->
-        <div class="analyticBoard">
-          <h1>Analytics</h1>
-			<canvas id="myChart" style="width:50%; max-width:600px"></canvas>
-						 
-        </div>
-        <div class="depositBoard">
-          <!--Bottom Right Corner dashboard-->
-          <h1>Deposit</h1>
-        </div>
-      </aside>
+		<section class="RightBoard">
+		<h1>Register &amp; Get Your Card Now!</h1>
+			<form>
+			<label>Enter Name: </label>
+				<input id="regFname" type="text" placeholder="Name">
+			<label>Enter Surename: </label>
+				<input id="regSname" type="text" placeholder="Surname">
+			<label>Mobile Phone: </label>
+				<input id="regPhone" type="tel" placeholder="Phone">
+			<label>Enter Email: </label>
+				<input id="regEmail" type="email" placeholder="Email">
+			<button type="submit">Sign up now</button></form>
+			
+		</section>
     </main>
     <footer class="footnote">
-      <div class="footerNav">
-        <a href="#">Talk to us</a>
-        <a href="#">About us</a>
-        <a href="#">Career</a>
-      </div>
+      <div class="footerNav"><a href="#">Talk to us</a><a href="#">About us</a><a href="#">Career</a></div>
       <div class="companyFnote">&copy; Dummy Holdings Ltd.</div>
     </footer>
   </body>
-	
 </html>
