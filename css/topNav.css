@@ -44,3 +44,15 @@
 .navBoardRight button {
   margin: 0px 10px 0px 0px;
 }
+@media screen and (max-width: 600px){
+	.navBoard{
+		display: flex;
+		flex-direction: row;
+		padding: 30px;
+	}
+	.navBoardRight {
+		display: inline-flex;
+		flex-direction: row;
+		justify-content: flex-start;
+	}
+}

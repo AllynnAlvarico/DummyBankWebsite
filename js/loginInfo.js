@@ -20,6 +20,4 @@ function submit_login(){
 			window.location.replace(main)
 			return false;
 		}
-		
-	
 }	

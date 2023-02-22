@@ -13,6 +13,39 @@
 <script src="js/loginInfo.js" defer></script>
 </head>
 <body>
+	<?php
+$servername = "localhost";
+$username = "your_username";
+$password = "your_password";
+$dbname = "your_database_name";
+
+// Create connection
+$conn = mysqli_connect( $servername, $username, $password, $dbname );
+
+// Check connection
+if ( !$conn ) {
+  die( "Connection failed: " . mysqli_connect_error() );
+}
+echo "Connected successfully";
+	
+	if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+  $regFname = $_POST['regFname'];
+  $regSname = $_POST['regSname'];
+  $regPhone = $_POST['regPhone'];
+  $regEmail = $_POST['regEmail'];
+
+  // Insert form data into the database
+  $sql = "INSERT INTO your_table_name (firstname, surname, phone, email) VALUES ('$regFname', '$regSname', '$regPhone', '$regEmail')";
+
+  if (mysqli_query($conn, $sql)) {
+    echo "New record created successfully";
+  } else {
+    echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+  }
+
+  mysqli_close($conn);
+}
+?>
 <header class="header"><img src="img/DBHoldings Logo.png" alt="DB Holdings Logo">
   <h1>Dummy Bank Holdings &trade;</h1>
 </header>
@@ -41,7 +74,7 @@
   </aside>
   <section class="RightBoard">
     <h1>Register &amp; Get Your Card Now!</h1>
-    <form class="formBoard" method="POST" action="register.php">
+<form class="formBoard" method="POST" action="register.php">
       <label>Enter Name: </label>
       <input id="regFname" type="text" placeholder="Name" name="regFname">
       <label>Enter Surename: </label>
@@ -58,6 +91,7 @@
   <div class="footerNav"><a href="#">Talk to us</a><a href="#">About us</a><a href="#">Career</a></div>
   <div class="companyFnote">&copy; Dummy Holdings Ltd.</div>
 </footer>
+
 	
 </body>
 </html>
