@@ -46,7 +46,7 @@
 div:has(button), .navBoardRight {
   align-self: center;
 }
-@media screen and (min-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+@media screen and (max-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
   .navBoard, .navBoardRight {
     display: flex;
     flex-direction: column;
@@ -64,7 +64,7 @@ div:has(button), .navBoardRight {
     padding: 10px 60px 0px 60px;
   }
 }
-@media screen and (min-device-width: 360px) and (-webkit-min-device-pixel-ratio: 2) {
+@media screen and (max-device-width: 360px) and (-webkit-min-device-pixel-ratio: 2) {
   .navBoard, .navBoardRight {
     display: flex;
     flex-direction: column;
