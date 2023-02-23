@@ -51,18 +51,19 @@
 	background-color: #A190F7;
 	color: white;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 300px) {
 	.mainBody {
+		display: flex;
 		flex-direction: column;
 	}
 	.RightBoard h1{
-		font-size: 30px;
+		font-size: 20px;
 	}
 	.formBoard {
-		width: 250px;
-		margin: 1px 0px 40px 1px;
+		width: 200px;
+		margin: 1px 0px 4px 0px;
 	}
 	.LeftBoard {
-		
+		display: none;
 	}
 }

@@ -36,7 +36,7 @@
 }
 .navBoardRight input {
   vertical-align: middle;
-  margin: 5px 10px 5px 0;
+  margin: 5px 10px 5px 0px;
   padding: 1px;
   background-color: #fff;
   border: 1px solid #ddd;
@@ -44,15 +44,23 @@
 .navBoardRight button {
   margin: 0px 10px 0px 0px;
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 300px){
 	.navBoard{
 		display: flex;
-		flex-direction: row;
-		padding: 30px;
+		flex-direction: column;
+		padding: 1px;
+	}
+	.navBoard a {
+		padding: 1% 2%;
 	}
 	.navBoardRight {
-		display: inline-flex;
-		flex-direction: row;
-		justify-content: flex-start;
+		padding: 10px 60px 0px 60px;
+	}
+	.buttons {
+		background-color: #A190F7;
+		color: white;
+		border-color: transparent;
+		border-radius: 3px;
+		box-shadow:  3px 5px 10px 1px black;
 	}
 }

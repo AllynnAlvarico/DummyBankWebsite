@@ -11,10 +11,31 @@
 	align-self: center;
 	padding: 0px 0px 0px 1em;
 	text-shadow: 10px 10px 8px black;
+	font-size: 32px;
+	
 }
 .header img{
 	width: 10%;
 	height: 10%;
 	padding: .5% 0% 0.5% 1%;
 }
-
+@media screen and (min-width: 300px){
+	.header h1 {
+		font-size: 15px;
+		text-shadow: 5px 5px 8px black;
+	}
+	.header img {
+		width: 35%;
+		height: 35%;
+	}
+}
+@media screen and (min-width: 1920px) {
+	.header h1 {
+		font-size: 32px;
+		text-shadow: 5px 5px 8px black;
+	}
+	.header img {
+		width: 10%;
+		height: 10%;
+	}
+}
