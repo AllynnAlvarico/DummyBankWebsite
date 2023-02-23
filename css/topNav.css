@@ -28,7 +28,6 @@
 .navBoardRight {
   display: flex;
   flex-flow: row wrap;
-  align-items: center;
 }
 .navBoardRight label {
   margin: 5px 10px 5px 0px;
@@ -54,13 +53,26 @@
 		padding: 1% 2%;
 	}
 	.navBoardRight {
+		display: flex;
+		flex-direction: column;
 		padding: 10px 60px 0px 60px;
 	}
-	.buttons {
-		background-color: #A190F7;
-		color: white;
-		border-color: transparent;
-		border-radius: 3px;
-		box-shadow:  3px 5px 10px 1px black;
+	.navBoardRight:has(label){
+	}
+}
+@media screen and (max-width: 375px){
+	.navBoard{
+		display: flex;
+		flex-direction: column;
+		padding: 1px;
+		align-items: flex-start;
+	}
+	.navBoard a {
+		padding: 1% 2%;
+	}
+	.navBoardRight {
+		display: flex;
+		flex-direction: column;
+		padding: 10px 60px 0px 60px;
 	}
 }

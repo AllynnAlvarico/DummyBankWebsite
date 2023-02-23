@@ -21,7 +21,7 @@
 }
 @media screen and (min-width: 300px){
 	.header h1 {
-		font-size: 15px;
+		font-size: 13.5px;
 		text-shadow: 5px 5px 8px black;
 	}
 	.header img {

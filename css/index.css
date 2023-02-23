@@ -38,7 +38,7 @@
 }
 .formBoard input {
 	padding: 15px;
-	margin: 0px 50px;
+/*	margin: 0px 50px;*/
 }
 .formBoard button {
 	margin: 10% 25%;
@@ -63,7 +63,14 @@
 		width: 200px;
 		margin: 1px 0px 4px 0px;
 	}
+	.RightBoard{
+		margin: 20px 50px;
+	}
 	.LeftBoard {
 		display: none;
+	}
+	.formBoard input {
+		padding: 5px;
+		font-size: 20px
 	}
 }

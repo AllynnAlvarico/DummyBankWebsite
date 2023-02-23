@@ -8,3 +8,8 @@ html {
 	/*background-color: white;*/
 	background-image: linear-gradient(330deg, #73de90 20%,#A190F7);
 }
+@media screen and (min-width: 300px){
+	html:has(label) {
+		font-size: 13px;
+	}
+}
