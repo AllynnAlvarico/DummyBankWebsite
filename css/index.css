@@ -74,3 +74,26 @@
 		font-size: 20px
 	}
 }
+@media screen and (max-width: 410px) {
+	.mainBody {
+		display: flex;
+		flex-direction: column;
+	}
+	.RightBoard h1{
+		font-size: 20px;
+	}
+	.formBoard {
+		width: 200px;
+		margin: 1px 0px 10px 0px;
+	}
+	.RightBoard{
+		margin: 20px 50px;
+	}
+	.LeftBoard {
+		display: none;
+	}
+	.formBoard input {
+		padding: 5px;
+		font-size: 20px
+	}
+}
